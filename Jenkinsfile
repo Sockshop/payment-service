@@ -1,7 +1,7 @@
 pipeline {
     environment {
         DOCKER_ID = "kentronic"
-        DOCKER_IMAGE_PAYMENT = "PAYMENT"
+        DOCKER_IMAGE_PAYMENT = "payment"
         DOCKER_TAG = "${BUILD_ID}"
         BUILD_AGENT  = ""
         NAMESPACE = credentials("NAMESPACE")
